@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  background: hsl(0, 0%, 95%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  color: hsl(0, 0%, 32%);
+  line-height: 1.75;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 0.75rem 1.75rem;
+  border: 1px solid hsl(100, 40%, 80%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 0%);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+
+button:disabled {
+  color: hsl(0, 0%, 60%);
+  background-color: hsl(0, 0%, 80%);
+  border: none;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.05);
+  background-color: hsl(100, 40%, 80%);;
+}
+
+button:active {
+  background-color: hsl(100, 40%, 90%);;
+  transform: scale(0.99);
+}

@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal {
+    z-index: 1;
+    border: 1px solid red;
+  }
+}
